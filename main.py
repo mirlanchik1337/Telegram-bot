@@ -18,9 +18,9 @@ bot = Bot(Token)
 dp = Dispatcher()
 
 # ----------------------------------------------------------------
+
 # Register Message handlers
 dp.message.register(comands.command_start_handler, CommandStart())
-dp.message.register(comands.stop, Command("stop"))
 dp.message.register(comands.help_handler, Command("help"))
 
 
