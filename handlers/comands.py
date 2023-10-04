@@ -21,4 +21,6 @@ async def help_handler(message: Message):
         f"/start - start bot\n"
     )
 
+async def goal(message: Message):
+    await message.answer_sticker()
 
